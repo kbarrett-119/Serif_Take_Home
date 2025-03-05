@@ -2,7 +2,7 @@
 
 ##OVERVIEW
 
-I used the Jupyter notebook Serif_Take_Home.ipynb to process the data. The resulting table with processed and cleaned up data is saved in TakeHome.csv.
+I used the Jupyter notebook Serif_Take_Home.ipynb to process the data. The resulting table with processed data is saved in TakeHome.csv.
 
 A large part of the code focuses on looking for inconsistencies between the hpt and tic files (which were minimal).
 
