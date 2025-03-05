@@ -1,6 +1,6 @@
 # Serif_Take_Home
 
-##OVERVIEW
+## OVERVIEW
 
 I used the Jupyter notebook Serif_Take_Home.ipynb to process the data. The resulting table with processed data is saved in TakeHome.csv.
 
@@ -44,11 +44,11 @@ Most of the code works on this problem of checking for inconsistencies. The last
 
 With these restrictions, the rows of the table are more meaningfully comparable to one another and can be used to understand the differences between hospitals and payers. Although the time I spent was all devoted to wrangling, with more time, it would be very interesting to look at patterns in costs between different hospitals and payers.
 
-##INSTRUCTIONS
+## INSTRUCTIONS
 
 This is pretty simple to run! In the second cell of the Jupyter notebook, set the working directory to the directory containing the raw csv files ('hpt_extract_20250213.csv' and 'tic_extract_20250213.csv'). Other than that no modifications are needed -- run the notebook and it will create the final table in the csv file TakeHome.csv in the working directory.
 
-##OTHER NOTES
+## OTHER NOTES
 
 This notebook could be applied to data analysis/exploration by making changes to the definition of the 'Treatment_ID' variable. The notebook has functions that look for inconsistencies within and between dataframes, and it has the flexibility to call out such inconsistencies for any definition of 'Treatment_ID'. So a user can pick any definition of 'Treatment_ID' for which differences/inconsistencies should be flagged, and the code has some useful intermediate output within the Jupyter notebook.
 ~                        
